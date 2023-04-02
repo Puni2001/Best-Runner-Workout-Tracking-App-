@@ -28,8 +28,7 @@
 
 **Styled Components** to keep the concerns of styling and element architecture separated and make components more readable.
 
-**Canvas.js** to make the weekly chart with the data;
-
+**Canvas.js** to make the weekly chart with the data:
 </br>
 </br>
 </br>
