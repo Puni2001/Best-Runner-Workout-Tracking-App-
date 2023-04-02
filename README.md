@@ -71,32 +71,31 @@
 
 ___ 
 
-## Что можно делать в приложении:
+## What you can do in the application:
 
-**1. Добавьте новую тренировку или отредактируйте существующую:**
+**1. Add a new workout or edit an existing one:**
 
-* по расстоянию в км;
-* по дате;
-* по типу (прогулка / бег / велосипед / лыжи)
-* добавить комментарий;
+* by distance in km;
+* by date;
+* by type (walk/run/bike/ski)
+* Add a comment;
 
-**3. Удалите существующую тренировку;**
+**3. Delete an existing workout;**
 
-**4. Фильтр тренировок:**
+**4. Workout filter:**
 
-* по дате: старая-новая, новая-старая;
-* по типу: велосипед / прогулка / бег / лыжи;
-* по км: макс-мин, мин-макс
+* by date: old-new, new-old;
+* by type: bike / walk / run / ski;
+* by km: max-min, min-max
 
-## Структура приложения.
+## Application structure.
 
-* React.js для создания интерфейса;
-* Redux для управления состоянием приложения;
-* React-router для маршрутизации;
-* Reselect для реализации фильтра, и запоминания дорогостоящих вычислений;
-* Redux-persist для сохранения данных в localStorage;
-* Material UI для форм и полей ввода и UI компонентов;
-*Не использовала Formik/React-hook-form, потому что не было смысла в валидация форм.
-* Styled-components, чтобы отделить стили и архитектуру элементов и сделать компоненты удобочитаемыми.
-* Canvas.js для построения недельного графика с данными;
-
+* React.js to create the interface;
+* Redux for managing application state;
+* React-router for routing
+* Reselect to implement a filter, and remember expensive calculations;
+* Redux-persist to save data to localStorage
+* Material UI for forms and input fields and UI components;
+* Didn't use Formik/React-hook-form because there was no point in form validation.
+* Styled-components to separate the styles and architecture of the elements and make the components readable.
+* Canvas.js for building a weekly chart with data;
